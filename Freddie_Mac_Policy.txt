@@ -1,0 +1,13 @@
+FREDDIE MAC IFRS 9 STRESS-TESTING POLICY
+1. STAGING RULES
+1.1 Stage 1: Performing loans. Triggered when 12-Month PD is less than 10%.
+1.2 Stage 2: Significant Increase in Credit Risk (SICR). Triggered when 12-Month PD is between 10% and 30%, OR when LTV > 90%.
+1.3 Stage 3: Credit Impaired. Triggered when 12-Month PD exceeds 30%, OR the loan is 90+ Days Past Due.
+
+2. MACROECONOMIC OVERLAYS
+2.1 House Price Index (HPI): If HPI YoY drops below -5%, the Loss Given Default (LGD) automatically increases from the baseline 20% to 30%.
+2.2 GDP Contraction: A GDP drop below -2.0% triggers a global multiplier on all probabilities of default (PD) by 1.5x.
+
+3. ECL CALCULATION
+3.1 ECL = Exposure at Default (EAD) * Effective PD * Dynamic LGD.
+3.2 For Stage 2 and Stage 3, the Effective PD is the Lifetime PD (3x the 12-month PD).
