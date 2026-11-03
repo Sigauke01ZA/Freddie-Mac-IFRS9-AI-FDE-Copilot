@@ -40,19 +40,19 @@ The AI Agent is powered by an underlying Logistic Regression IFRS 9 engine built
 ### 1. Default Rate by Origination Vintage
 The portfolio captures the macroeconomic cycles perfectly, showing the severe impact of the 2008 Global Financial Crisis and the 2020 COVID shock.
 
-<img src="default_rate_vintage.png" width="100%">
+<img src="01_default_vintage.png" width="100%">
 *Figure 3: Default rate by origination vintage.*
 
 ### 2. Delinquency Transition Matrix
 To validate the credit mechanics, we analyzed the roll rates. The matrix shows the high probability of curing from 30 DPD (50.7% return to Current), compared to the "stickiness" of 90+ DPD (72.1% remain in default).
 
-<img src="transition_matrix.png" width="80%">
+<img src="04_transition_matrix.png" width="80%">
 *Figure 4: 1-month delinquency transition matrix.*
 
 ### 3. Model Discrimination (ROC Curve)
 The champion model demonstrates strong rank-ordering capabilities across both the Train and Test datasets.
 
-<img src="roc_curve.png" width="80%">
+<img src="07_roc_curve.png" width="80%">
 *Figure 5: ROC Curve for the 12-month PD Champion model.*
 
 ### 4. IFRS 9 Staging by Vintage
